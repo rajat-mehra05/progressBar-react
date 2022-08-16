@@ -7,9 +7,9 @@ const Bar = ({ barAmount }) => {
         barAmount === 0
           ? "bg-white"
           : barAmount < 20
-          ? "bg-red-800"
+          ? "bg-red-900"
           : barAmount < 65
-          ? "bg-orange-700"
+          ? "bg-yellow-500"
           : "bg-green-700"
       }`}
     ></div>

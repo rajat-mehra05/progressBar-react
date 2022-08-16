@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Bar from "./Bar";
 import ClearButton from "./ClearButton";
+import Footer from "./Footer";
+import InfoContainer from "./InfoContainer";
 
 const ProgressInput = () => {
   const [input, setInput] = useState("");
@@ -25,6 +27,8 @@ const ProgressInput = () => {
       </form>
       <Bar barAmount={barAmount} />
       <ClearButton setBarAmount={setBarAmount} setInput={setInput} />
+      <InfoContainer />
+      <Footer />
     </div>
   );
 };
